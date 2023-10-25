@@ -20,7 +20,7 @@ machine.collision_box = util.area({0,0}, 2.5)
 machine.selection_box = util.area({0,0}, 2)
 machine.crafting_categories = {name}
 machine.crafting_speed = shared.deployer_speed_modifier
-machine.ingredient_count = 100
+machine.ingredient_count = 0
 machine.module_specification = nil
 machine.minable = {result = name, mining_time = 5}
 machine.flags = {--[["placeable-off-grid",]] "placeable-neutral", "player-creation", "no-automated-item-removal"}
